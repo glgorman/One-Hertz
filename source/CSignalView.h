@@ -1,4 +1,4 @@
-// ChildView.h : interface of the CSignalView class
+// CSignalView.h : interface of the CSignalView class
 //
 #pragma once
 #include "afx.h"
@@ -129,4 +129,5 @@ protected:
 	
 	DECLARE_MESSAGE_MAP()
 };
+
 
