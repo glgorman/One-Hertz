@@ -1,5 +1,5 @@
-// ChildView.cpp : implementation of the CSignalView class
-//
+// CSignalView.cpp : implementation of the CSignalView class
+// Copyright 2025 Gerold Lee Gorman.  MIT License.
 
 #include "stdafx.h"
 #include "math.h"
@@ -394,3 +394,4 @@ HENHMETAFILE CSignalView::render_scene_to_metafile (CDC *dc,char *fname)
 	ReleaseDC (dc2);
 	return m_hm;
 }
+
